@@ -25,12 +25,12 @@ public final class TurkeyAdapter implements Duck {
     /*--------------------------------------------------------*/
 
     @Override
-    public void quack() {
+    public final void quack() {
         turkey.gobble();
     }
 
     @Override
-    public void fly() {
+    public final void fly() {
         for (int i = 0; i < 3; ++i) {
             turkey.fly();
         }

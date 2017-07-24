@@ -7,12 +7,12 @@ package structural.adapter;
 public final class MallardDuck implements Duck {
 
     @Override
-    public void quack() {
+    public final void quack() {
         System.out.println("Quack-quack");
     }
 
     @Override
-    public void fly() {
+    public final void fly() {
         System.out.println("I am flying");
     }
 }
