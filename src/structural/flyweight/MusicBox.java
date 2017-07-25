@@ -36,7 +36,7 @@ public final class MusicBox implements Toy {
     /* Constructors
     /*--------------------------------------------------------*/
 
-    public MusicBox(String color) {
+    MusicBox(String color) {
         this.color = color;
         System.out.println("MusicBox instance is created.");
         ++INSTANCES_CREATED;
@@ -60,7 +60,6 @@ public final class MusicBox implements Toy {
 
     @Override
     public final void entertain() {
-        // Doing some stuff.
-//        System.out.format("Playing %s\n", tuneName);
+        // Doing some stuff to entertain people.
     }
 }
