@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0fabdebf-cd52-47ba-b57d-0da2a7a08010" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/behavioral/template/GlassHouse.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/behavioral/template/HouseTemplate.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/behavioral/template/WoodenHouse.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/behavioral/template/HouseTemplateTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/behavioral/mediator/Consumer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/behavioral/mediator/Mediator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/behavioral/mediator/MediatorImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/behavioral/mediator/Producer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/behavioral/mediator/MediatorTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -34,14 +35,66 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HouseTemplateTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="HouseTemplateTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/behavioral/template/HouseTemplateTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="32" lean-forward="true" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
+            <state relative-caret-position="300">
+              <caret line="20" column="33" lean-forward="true" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Mediator.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/behavioral/mediator/Mediator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="16" lean-forward="false" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MediatorImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/behavioral/mediator/MediatorImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="26" lean-forward="false" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MediatorTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/behavioral/mediator/MediatorTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="417">
+              <caret line="34" column="30" lean-forward="true" selection-start-line="34" selection-start-column="30" selection-end-line="34" selection-end-column="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Producer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/behavioral/mediator/Producer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="41" column="29" lean-forward="false" selection-start-line="41" selection-start-column="29" selection-end-line="41" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Consumer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/behavioral/mediator/Consumer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="424">
+              <caret line="38" column="76" lean-forward="true" selection-start-line="38" selection-start-column="76" selection-end-line="38" selection-end-column="76" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -73,8 +126,8 @@
       <list>
         <option value="Enum" />
         <option value="Interface" />
-        <option value="JUnit4 Test Class" />
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -89,11 +142,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/test/creational/prototype/EmployeesTest.java" />
-        <option value="$PROJECT_DIR$/src/structural/adapter/Duck.java" />
-        <option value="$PROJECT_DIR$/src/structural/adapter/Turkey.java" />
-        <option value="$PROJECT_DIR$/src/structural/adapter/TurkeyAdapter.java" />
-        <option value="$PROJECT_DIR$/src/structural/adapter/MallardDuck.java" />
         <option value="$PROJECT_DIR$/src/structural/adapter/WildTurkey.java" />
         <option value="$PROJECT_DIR$/src/Application.java" />
         <option value="$PROJECT_DIR$/src/structural/composite/Shape.java" />
@@ -140,6 +188,11 @@
         <option value="$PROJECT_DIR$/test/behavioral/template/HouseTemplateTest.java" />
         <option value="$PROJECT_DIR$/src/behavioral/template/WoodenHouse.java" />
         <option value="$PROJECT_DIR$/src/behavioral/template/GlassHouse.java" />
+        <option value="$PROJECT_DIR$/src/behavioral/mediator/Mediator.java" />
+        <option value="$PROJECT_DIR$/src/behavioral/mediator/MediatorImpl.java" />
+        <option value="$PROJECT_DIR$/src/behavioral/mediator/Consumer.java" />
+        <option value="$PROJECT_DIR$/src/behavioral/mediator/Producer.java" />
+        <option value="$PROJECT_DIR$/test/behavioral/mediator/MediatorTest.java" />
       </list>
     </option>
   </component>
@@ -232,7 +285,7 @@
               <item name="Design Patterns" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="behavioral" type="462c0819:PsiDirectoryNode" />
-              <item name="template" type="462c0819:PsiDirectoryNode" />
+              <item name="mediator" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Design Patterns" type="b2602c69:ProjectViewProjectNode" />
@@ -266,11 +319,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="behavioral.mediator" />
       <recent name="behavioral.template" />
       <recent name="structural.decorator" />
       <recent name="structural.bridge" />
       <recent name="structural.facade" />
-      <recent name="structural.flyweight" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -288,7 +341,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.HouseTemplateTest">
+  <component name="RunManager" selected="JUnit.MediatorTest.mediatorTest">
     <configuration name="BridgePatternTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -389,20 +442,20 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="ShopKeeperTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MediatorTest.mediatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="structural.facade.*" />
+          <option name="PATTERN" value="behavioral.mediator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="Design Patterns" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="structural.facade" />
-      <option name="MAIN_CLASS_NAME" value="structural.facade.ShopKeeperTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="behavioral.mediator" />
+      <option name="MAIN_CLASS_NAME" value="behavioral.mediator.MediatorTest" />
+      <option name="METHOD_NAME" value="mediatorTest" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -495,19 +548,19 @@
       <listeners />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.ShopKeeperTest" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.BridgePatternTest" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.BridgePatternTest.bridgeTest" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.DecoratorTest" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.HouseTemplateTest" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.BridgePatternTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.BridgePatternTest.bridgeTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.DecoratorTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.HouseTemplateTest" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.MediatorTest.mediatorTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.HouseTemplateTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.DecoratorTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.BridgePatternTest" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.BridgePatternTest.bridgeTest" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.ShopKeeperTest" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.MediatorTest.mediatorTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.HouseTemplateTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.DecoratorTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.BridgePatternTest" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.BridgePatternTest.bridgeTest" />
       </list>
     </recent_temporary>
   </component>
@@ -528,12 +581,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BridgePatternTest - 2017.07.25 at 19h 02m 56s.xml">
-      <configuration name="BridgePatternTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BridgePatternTest_bridgeTest - 2017.07.25 at 18h 44m 52s.xml">
-      <configuration name="BridgePatternTest.bridgeTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="BridgePatternTest_bridgeTest - 2017.07.25 at 18h 45m 03s.xml">
       <configuration name="BridgePatternTest.bridgeTest" configurationId="JUnit" />
     </history-entry>
@@ -545,6 +592,12 @@
     </history-entry>
     <history-entry file="HouseTemplateTest - 2017.07.26 at 12h 13m 41s.xml">
       <configuration name="HouseTemplateTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MediatorTest_mediatorTest - 2017.07.26 at 14h 23m 28s.xml">
+      <configuration name="MediatorTest.mediatorTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MediatorTest_mediatorTest - 2017.07.26 at 14h 24m 05s.xml">
+      <configuration name="MediatorTest.mediatorTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="MusicBoxTest_flyweightPatternTest - 2017.07.25 at 10h 25m 50s.xml">
       <configuration name="MusicBoxTest.flyweightPatternTest" configurationId="JUnit" />
@@ -608,41 +661,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/creational/abstractfactory/Circle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="43" lean-forward="false" selection-start-line="21" selection-start-column="43" selection-end-line="21" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/creational/abstractfactory/Rectangle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="46" lean-forward="false" selection-start-line="23" selection-start-column="46" selection-end-line="23" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/creational/abstractfactory/Triangle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="34" lean-forward="true" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/creational/builder/PersonTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="66" lean-forward="false" selection-start-line="28" selection-start-column="66" selection-end-line="28" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/creational/prototype/EmployeesTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="52" lean-forward="true" selection-start-line="19" selection-start-column="52" selection-end-line="19" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/creational/builder/Person.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -703,6 +721,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="15" column="67" lean-forward="false" selection-start-line="15" selection-start-column="67" selection-end-line="15" selection-end-column="67" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -710,6 +729,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="10" selection-end-column="3" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -773,6 +793,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" column="63" lean-forward="false" selection-start-line="11" selection-start-column="63" selection-end-line="11" selection-end-column="63" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -975,8 +996,50 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/behavioral/template/HouseTemplateTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="32" lean-forward="true" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
+        <state relative-caret-position="300">
+          <caret line="20" column="33" lean-forward="true" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/behavioral/mediator/Mediator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="16" lean-forward="false" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/behavioral/mediator/Consumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="424">
+          <caret line="38" column="76" lean-forward="true" selection-start-line="38" selection-start-column="76" selection-end-line="38" selection-end-column="76" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/behavioral/mediator/Producer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="41" column="29" lean-forward="false" selection-start-line="41" selection-start-column="29" selection-end-line="41" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/behavioral/mediator/MediatorImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="26" lean-forward="false" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/behavioral/mediator/MediatorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="417">
+          <caret line="34" column="30" lean-forward="true" selection-start-line="34" selection-start-column="30" selection-end-line="34" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
