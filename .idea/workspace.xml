@@ -2,15 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0fabdebf-cd52-47ba-b57d-0da2a7a08010" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/behavioral/command/CloseFileCommand.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/behavioral/command/Command.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/behavioral/command/FileCommandInvoker.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/behavioral/command/FileSystemReceiver.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/behavioral/command/OpenFileCommand.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/behavioral/command/UnixFileSystemReceiver.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/behavioral/command/WindowsFileSystemReceiver.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/behavioral/command/WriteFileCommand.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/behavioral/command/CommandTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/behavioral/state/CeilingFanPullChain.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/behavioral/state/HighSpeedState.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/behavioral/state/LowSpeedState.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/behavioral/state/MediumSpeedState.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/behavioral/state/OffState.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/behavioral/state/State.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/behavioral/state/StateTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -29,94 +27,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="FileSystemReceiver.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/behavioral/command/FileSystemReceiver.java">
+      <file leaf-file-name="StateTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/behavioral/state/StateTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="21" lean-forward="false" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UnixFileSystemReceiver.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/behavioral/command/UnixFileSystemReceiver.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="354">
-              <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WindowsFileSystemReceiver.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/behavioral/command/WindowsFileSystemReceiver.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="31" column="5" lean-forward="false" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Command.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/behavioral/command/Command.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="22" lean-forward="false" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CommandTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/behavioral/command/CommandTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="40" column="26" lean-forward="false" selection-start-line="40" selection-start-column="26" selection-end-line="40" selection-end-column="26" />
+            <state relative-caret-position="456">
+              <caret line="38" column="25" lean-forward="true" selection-start-line="38" selection-start-column="25" selection-end-line="38" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FileCommandInvoker.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/behavioral/command/FileCommandInvoker.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="27" column="26" lean-forward="true" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="OpenFileCommand.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/behavioral/command/OpenFileCommand.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="37" lean-forward="false" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WriteFileCommand.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/behavioral/command/WriteFileCommand.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="28" column="39" lean-forward="true" selection-start-line="28" selection-start-column="39" selection-end-line="28" selection-end-column="39" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CloseFileCommand.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/behavioral/command/CloseFileCommand.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="28" column="39" lean-forward="true" selection-start-line="28" selection-start-column="39" selection-end-line="28" selection-end-column="39" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -127,8 +45,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Interface" />
         <option value="JUnit4 Test Class" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -144,13 +62,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/structural/bridge/BigShapesDrawer.java" />
-        <option value="$PROJECT_DIR$/src/structural/bridge/Drawer.java" />
-        <option value="$PROJECT_DIR$/src/structural/bridge/SmallShapesDrawer.java" />
-        <option value="$PROJECT_DIR$/src/structural/bridge/LargeShapesDrawer.java" />
-        <option value="$PROJECT_DIR$/src/structural/bridge/Shape.java" />
-        <option value="$PROJECT_DIR$/src/structural/bridge/Pentagon.java" />
-        <option value="$PROJECT_DIR$/src/structural/bridge/Star.java" />
         <option value="$PROJECT_DIR$/test/structural/bridge/BridgePatternTest.java" />
         <option value="$PROJECT_DIR$/src/structural/decorator/Car.java" />
         <option value="$PROJECT_DIR$/src/structural/decorator/BasicCar.java" />
@@ -195,6 +106,13 @@
         <option value="$PROJECT_DIR$/test/behavioral/command/CommandTest.java" />
         <option value="$PROJECT_DIR$/src/behavioral/command/CloseFileCommand.java" />
         <option value="$PROJECT_DIR$/src/behavioral/command/WriteFileCommand.java" />
+        <option value="$PROJECT_DIR$/src/behavioral/state/State.java" />
+        <option value="$PROJECT_DIR$/src/behavioral/state/LowSpeedState.java" />
+        <option value="$PROJECT_DIR$/src/behavioral/state/MediumSpeedState.java" />
+        <option value="$PROJECT_DIR$/src/behavioral/state/HighSpeedState.java" />
+        <option value="$PROJECT_DIR$/src/behavioral/state/CeilingFanPullChain.java" />
+        <option value="$PROJECT_DIR$/src/behavioral/state/OffState.java" />
+        <option value="$PROJECT_DIR$/test/behavioral/state/StateTest.java" />
       </list>
     </option>
   </component>
@@ -260,7 +178,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -284,20 +204,24 @@
               <item name="Design Patterns" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="behavioral" type="462c0819:PsiDirectoryNode" />
-              <item name="command" type="462c0819:PsiDirectoryNode" />
+              <item name="state" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Design Patterns" type="b2602c69:ProjectViewProjectNode" />
               <item name="Design Patterns" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Design Patterns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Design Patterns" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="behavioral" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="AndroidView" />
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -321,11 +245,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="behavioral.state" />
       <recent name="behavioral.command" />
       <recent name="behavioral.strategy.model" />
       <recent name="behavioral.observer" />
       <recent name="behavioral.chainofresponsibility" />
-      <recent name="behavioral.mediator" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -343,7 +267,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.CommandTest.commandTest">
+  <component name="RunManager" selected="JUnit.StateTest">
     <configuration name="CommandTest.commandTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -394,31 +318,6 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="MediatorTest.mediatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="behavioral.mediator.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="Design Patterns" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="behavioral.mediator" />
-      <option name="MAIN_CLASS_NAME" value="behavioral.mediator.MediatorTest" />
-      <option name="METHOD_NAME" value="mediatorTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
     <configuration name="ObserverTest.observerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -433,6 +332,31 @@
       <option name="MAIN_CLASS_NAME" value="behavioral.observer.ObserverTest" />
       <option name="METHOD_NAME" value="observerTest" />
       <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="StateTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="behavioral.state.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="Design Patterns" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="behavioral.state" />
+      <option name="MAIN_CLASS_NAME" value="behavioral.state.StateTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -550,19 +474,19 @@
       <listeners />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.MediatorTest.mediatorTest" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.LoggerTest" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.ObserverTest.observerTest" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.StrategyTest" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.CommandTest.commandTest" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.LoggerTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.ObserverTest.observerTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.StrategyTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.CommandTest.commandTest" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.StateTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.CommandTest.commandTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.StrategyTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.ObserverTest.observerTest" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.LoggerTest" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.MediatorTest.mediatorTest" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.StateTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.CommandTest.commandTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.StrategyTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.ObserverTest.observerTest" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.LoggerTest" />
       </list>
     </recent_temporary>
   </component>
@@ -583,14 +507,11 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CommandTest_commandTest - 2017.07.27 at 23h 20m 46s.xml">
-      <configuration name="CommandTest.commandTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="CommandTest_commandTest - 2017.07.27 at 23h 22m 50s.xml">
       <configuration name="CommandTest.commandTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LoggerTest - 2017.07.26 at 17h 03m 21s.xml">
-      <configuration name="LoggerTest" configurationId="JUnit" />
+    <history-entry file="CommandTest_commandTest - 2017.07.27 at 23h 23m 49s.xml">
+      <configuration name="CommandTest.commandTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="MediatorTest_mediatorTest - 2017.07.26 at 14h 23m 28s.xml">
       <configuration name="MediatorTest.mediatorTest" configurationId="JUnit" />
@@ -609,6 +530,9 @@
     </history-entry>
     <history-entry file="ShopKeeperTest_phonePriceTest - 2017.07.25 at 16h 40m 23s.xml">
       <configuration name="ShopKeeperTest.phonePriceTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StateTest - 2017.07.28 at 13h 18m 31s.xml">
+      <configuration name="StateTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="StrategyTest - 2017.07.27 at 15h 15m 38s.xml">
       <configuration name="StrategyTest" configurationId="JUnit" />
@@ -678,55 +602,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/structural/bridge/LargeShapesDrawer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="44" lean-forward="false" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/structural/bridge/SmallShapesDrawer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="46" lean-forward="true" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/structural/bridge/Pentagon.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="15" lean-forward="true" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/structural/bridge/Star.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="15" lean-forward="true" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/structural/facade/subsystem/GoogleShop.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="18" lean-forward="false" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/structural/decorator/BasicCar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="51" lean-forward="false" selection-start-line="10" selection-start-column="51" selection-end-line="10" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/structural/decorator/LuxuryCar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="40" lean-forward="false" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/structural/decorator/DecoratorTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -894,7 +769,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="28" lean-forward="false" selection-start-line="0" selection-start-column="28" selection-end-line="0" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -902,9 +776,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="31" lean-forward="false" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -912,7 +783,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="72" lean-forward="false" selection-start-line="7" selection-start-column="72" selection-end-line="7" selection-end-column="72" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -920,7 +790,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="27" lean-forward="false" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -928,9 +797,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
           <caret line="27" column="41" lean-forward="false" selection-start-line="27" selection-start-column="41" selection-end-line="27" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -938,7 +804,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="28" lean-forward="false" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -946,7 +811,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="423">
           <caret line="57" column="72" lean-forward="false" selection-start-line="57" selection-start-column="72" selection-end-line="57" selection-end-column="72" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -954,7 +818,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="444">
           <caret line="30" column="78" lean-forward="false" selection-start-line="30" selection-start-column="78" selection-end-line="30" selection-end-column="78" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -962,7 +825,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="312">
           <caret line="28" column="32" lean-forward="false" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -970,9 +832,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" column="25" lean-forward="false" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -980,9 +839,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -990,15 +846,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-340">
           <caret line="13" column="19" lean-forward="false" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/behavioral/command/FileSystemReceiver.java">
+    <entry file="file://$PROJECT_DIR$/test/behavioral/command/CommandTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="21" lean-forward="false" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
-          <folding />
+        <state relative-caret-position="600">
+          <caret line="40" column="26" lean-forward="false" selection-start-line="40" selection-start-column="26" selection-end-line="40" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1006,24 +863,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="22" lean-forward="false" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/behavioral/command/CommandTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="40" column="26" lean-forward="false" selection-start-line="40" selection-start-column="26" selection-end-line="40" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/behavioral/command/UnixFileSystemReceiver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="354">
-          <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1036,18 +875,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/behavioral/command/FileCommandInvoker.java">
+    <entry file="file://$PROJECT_DIR$/src/behavioral/command/UnixFileSystemReceiver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="26" lean-forward="true" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
+        <state relative-caret-position="354">
+          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/behavioral/command/CloseFileCommand.java">
+    <entry file="file://$PROJECT_DIR$/src/behavioral/command/FileSystemReceiver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="39" lean-forward="true" selection-start-line="28" selection-start-column="39" selection-end-line="28" selection-end-column="39" />
+        <state relative-caret-position="135">
+          <caret line="9" column="21" lean-forward="false" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/behavioral/command/FileCommandInvoker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="26" lean-forward="false" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
           <folding />
         </state>
       </provider>
@@ -1062,9 +909,75 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/behavioral/command/WriteFileCommand.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="39" lean-forward="true" selection-start-line="28" selection-start-column="39" selection-end-line="28" selection-end-column="39" />
+        <state relative-caret-position="390">
+          <caret line="26" column="13" lean-forward="false" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/behavioral/command/CloseFileCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="39" lean-forward="false" selection-start-line="28" selection-start-column="39" selection-end-line="28" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/behavioral/state/OffState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="18" column="27" lean-forward="true" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/behavioral/state/CeilingFanPullChain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="64" lean-forward="true" selection-start-line="30" selection-start-column="64" selection-end-line="30" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/behavioral/state/State.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="16" lean-forward="false" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/behavioral/state/LowSpeedState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="8" column="4" lean-forward="false" selection-start-line="8" selection-start-column="4" selection-end-line="31" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/behavioral/state/MediumSpeedState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="30" column="68" lean-forward="false" selection-start-line="30" selection-start-column="68" selection-end-line="30" selection-end-column="68" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/behavioral/state/HighSpeedState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="369">
+          <caret line="28" column="55" lean-forward="false" selection-start-line="28" selection-start-column="55" selection-end-line="28" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/behavioral/state/StateTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="38" column="25" lean-forward="true" selection-start-line="38" selection-start-column="25" selection-end-line="38" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
